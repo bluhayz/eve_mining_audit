@@ -29,7 +29,6 @@ def mergeMiningLedgerMain(miningLedgerArray, charactersArray):
     for miningLedger in miningLedgerArray:
         #group all ores by 
         pilot = miningLedger['Pilot']
-        print(miningLedger)
         if pilot in charactersArray.keys():
             main = charactersArray[pilot]
         else:
